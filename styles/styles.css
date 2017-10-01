@@ -1,0 +1,117 @@
+/*
+Not sure why the content is not centered
+on the protfolio page.
+Maybe I need to do a different class for
+content for portfoio page?
+*/
+
+.content{
+	width: 750px;
+	margin: auto;
+}
+
+.portfolio{
+	align-content: left; 
+	height: 540px;
+}
+
+.jobs {
+	align-content: center; 
+}
+
+.job-title{
+    font-size: 18px;
+    float: left;
+    color: #000;
+}
+.job-description {
+    font-size: 16px;
+    float: left;
+    color: #000;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.style1 {
+	border-top: 1px dotted #8c8b8b;
+}
+
+.education {
+	font-size: 16px;
+    float: left;
+    color: #000;
+    line-height: 24px;
+}
+
+.experience {
+	height: 80px;
+}
+
+.border {
+	border: 1px solid black;
+}
+
+h1	{
+	text-align: center;
+	font-family: 'Assistant', sans-serif;
+	font-size: 28px;
+	font-weight: 700
+}
+
+h2	{
+	text-align: left;
+	font-family: 'Assistant', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+nav	{
+	text-align: center;
+}
+
+p { 
+	height: 200px; 
+}
+
+.title {
+	font-size: 22
+	font-weight: 600;
+}
+
+img {
+	float: right;
+  	margin-left: 20px;
+  	margin-bottom: 20px;
+  	border: 1px solid #222222;
+  	padding: 5px;
+  	text-align: center
+}
+
+a {
+	font-family: 'Assistant', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+    color: #09B8F4;
+}
+
+body {
+    font-family: 'Assistant', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #F6F6F6;
+}
+
+/*Footer is not ceneered on bottom
+of portfolio page. Not sure why.*/
+
+footer {
+	font-family: 'Assistant', sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+img {
+	border: 3px #ccc;
+	float: right;
+	margin: 0 0 10px 10px;
+}
