@@ -1,46 +1,89 @@
 /*
-Not sure why the content is not centered
-on the protfolio page.
-Maybe I need to do a different class for
-content for portfoio page?
+To figure out:
+-centering portfolio images
+-less spacing after last portfolio image
+-bold in job title (use <p>?)
+-footer in portfolio page...
+  need diff class for this page?
+-active state, nav
 */
+
+body {
+    font-family: 'Assistant', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #F6F6F6;
+}
+
+h1	{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700
+}
+
+h2	{
+	text-align: left;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+nav	{
+	text-align: center;
+}
+
+
+a {
+	font-size: 16px;
+	text-decoration: none;
+    color: #09B8F4;
+}
+
+p {
+	line-height: 24px;
+}
+
+/*Footer is not ceneered on bottom
+of portfolio page. Not sure why.*/
+
+footer {
+	font-family: 'Assistant', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 20px;
+}
 
 .content{
 	width: 750px;
 	margin: auto;
 }
 
-.portfolio{
-	align-content: left; 
-	height: 540px;
+.portfolio {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 40px;
 }
 
-.jobs {
-	align-content: center; 
-}
-
-.job-title{
+.job-title {
     font-size: 18px;
-    float: left;
     color: #000;
 }
 .job-description {
     font-size: 16px;
-    float: left;
     color: #000;
     padding-top: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .style1 {
 	border-top: 1px dotted #8c8b8b;
+	clear: both;
 }
 
 .education {
 	font-size: 16px;
-    float: left;
     color: #000;
-    line-height: 24px;
+    padding-bottom: 10px;
 }
 
 .experience {
@@ -51,67 +94,9 @@ content for portfoio page?
 	border: 1px solid black;
 }
 
-h1	{
-	text-align: center;
-	font-family: 'Assistant', sans-serif;
-	font-size: 28px;
-	font-weight: 700
-}
-
-h2	{
-	text-align: left;
-	font-family: 'Assistant', sans-serif;
-	font-size: 20px;
-	font-weight: 900;
-}
-
-nav	{
-	text-align: center;
-}
-
-p { 
-	height: 200px; 
-}
-
-.title {
-	font-size: 22
-	font-weight: 600;
-}
-
-img {
+.headshot {
 	float: right;
-  	margin-left: 20px;
-  	margin-bottom: 20px;
-  	border: 1px solid #222222;
-  	padding: 5px;
-  	text-align: center
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 
-a {
-	font-family: 'Assistant', sans-serif;
-	font-size: 16px;
-	text-decoration: none;
-    color: #09B8F4;
-}
-
-body {
-    font-family: 'Assistant', sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    background-color: #F6F6F6;
-}
-
-/*Footer is not ceneered on bottom
-of portfolio page. Not sure why.*/
-
-footer {
-	font-family: 'Assistant', sans-serif;
-	font-size: 14px;
-	text-align: center;
-}
-
-img {
-	border: 3px #ccc;
-	float: right;
-	margin: 0 0 10px 10px;
-}
